@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jboss-web>
+<jboss-web>
+	<context-root>/okta</context-root>
+	<replication-config>
+		<replication-trigger>SET_AND_NON_PRIMITIVE_GET</replication-trigger>
+		<replication-granularity>SESSION</replication-granularity>
+	</replication-config>
+</jboss-web>
